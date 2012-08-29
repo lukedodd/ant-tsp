@@ -141,8 +141,7 @@ public class AntTsp {
 	// Important facts:
 	// - >25 times faster
 	// - Extreme cases can lead to error of 25% - but usually less.
-	// - Does not harm results -- not surprising since the algorithm 
-	//   for a stochastic algorithm.
+	// - Does not harm results -- not surprising for a stochastic algorithm.
 	public static double pow(final double a, final double b) {
 	    final int x = (int) (Double.doubleToLongBits(a) >> 32);
 	    final int y = (int) (b * (x - 1072632447) + 1072632447);
