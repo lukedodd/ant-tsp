@@ -1,4 +1,4 @@
-# Implementation of Ant Swarm Colony for the Travelling Salesman Problem #
+# Implementation of Ant Colony Optimisation for the Travelling Salesman Problem #
  
 The algorithm is described in [1, page 8].
 
