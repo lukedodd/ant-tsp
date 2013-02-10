@@ -136,8 +136,7 @@ public class AntTsp {
             ants[j] = new Ant();
     }
 
-    // Approximate power function, Java's native math functions can be really
-    // slow due to not using hardware properly and we don't need accuracy.
+    // Approximate power function, Math.pow is quite slow and we don't need accuracy.
     // See: 
     // http://martin.ankerl.com/2007/10/04/optimized-pow-approximation-for-java-and-c-c/
     // Important facts:
